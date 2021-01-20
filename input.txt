@@ -1,0 +1,6 @@
+create database ghjfjhj
+create table users(name varchar,num int,id int)
+insert into users values('23123',234,123123)
+insert into users (name,id,num) values('23123',234,123123)
+update users set name='ahmed',id=10,num=1234 where  id>9
+select * from users
